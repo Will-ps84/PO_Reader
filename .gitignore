@@ -1,0 +1,21 @@
+﻿# Ignorar entornos virtuales
+.venv/
+venv/
+
+# Ignorar datos y resultados
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Archivos temporales y cachés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Configuración local
+.env
+.DS_Store
+Thumbs.db
