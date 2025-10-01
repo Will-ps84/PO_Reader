@@ -1,21 +1,18 @@
-﻿# Ignorar entornos virtuales
+﻿# Entornos virtuales
 .venv/
 venv/
+env/
 
-# Ignorar datos y resultados
-data/
-*.csv
-*.xlsx
-*.parquet
-
-# Archivos temporales y cachés
+# Archivos compilados de Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.log
 
-# Configuración local
-.env
+# Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Carpetas que no quieres subir
+data/
+PO_reader_test/
